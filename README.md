@@ -5,9 +5,11 @@ The process of normalizing raw data in order to minimize redundancy and improve 
 Normalizing the data to 3rd Normal Form (3NF) involves several steps. 
 
 These are the following steps I took to normalize the raw data of airbnb 2008 homestays listing activity to 3NF using SQL:
+
 Note: for a quicker glance, I have shared my SQL code here. Thanks :)
 
 STEP1: Identify the entities and relationships in the data:
+
 The entities in this data isthe Homestays, Hosts, and Listings. The relationships could be the Homestays are listed by Hosts, and each Listing corresponds to a Homestay.
 
 STEP2: Create the first Normal Form (1NF) tables:
